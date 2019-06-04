@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>shaleila's concert diary</title> 
+    <title>'Zerts!</title> 
 
 
 <link rel="shortcut icon" href="{Favicon}">
@@ -42,7 +42,7 @@ a:hover {
 body {
     background:#fff; /*background*/
     font-family:'Merriweather', serif; /*font*/
-    font-size:10px; /* font size */
+    font-size:12px; /* font size */
     font-weight:300;
     line-height:190%;
     color:#767676; /* text color */
@@ -69,6 +69,14 @@ h1 {
     display:inline;
     border-bottom:1px solid #a4afc1;
 } 
+
+h2 { 
+    font-weight:400;
+    color:#444;
+    font-size:22px;
+    display:inline;
+    /* border-bottom:1px solid #a4afc1; */
+}
 
 header a,h1 { margin-right:7px;} 
 header a:first-of-type,article b:first-of-type { margin-left:7px; } 
@@ -133,24 +141,38 @@ article span:last-of-type { margin-bottom:5px; }
 
 <header> 
    
-        <h1>'zerts</h1> 
+        <h2>showleila</h2> 
        
         
-        <a href="/">home</a>
-        <a href="/ask">inbox</a>
-        <a href="http://tumblr.com/dashboard">dash</a>
+            <a href="https://shaleila.com/">home</a>
+            <a href="https://open.spotify.com/user/shaleila13?si=BpXflqOwTfGmJDckHImk5w">spotify</a>
+            <a href="https://soundcloud.com/shaleila">soundcloud</a>
+            <a href="https://twitter.com/okshaleila">twitter</a>
+            <a href="https://www.instagram.com/okshaleila/">instagram</a>
+            <a href="https://www.youtube.com/c/shaleila">youtube</a>
+            <a href="https://letterboxd.com/shaleila/">letterboxd</a>
+            <a href="https://github.com/shaleila/">github</a>
            
 <div class="filters"> 
 
-<div class="button-group js-radio-button-group" data-filter-group="misc">
-<button class="button is-checked" data-filter="">everything</button>
-<button class="button" data-filter=".ya">young adult</button>
-<button class="button" data-filter=".con">contemporary</button>
-<button class="button" data-filter=".classic">classic</button>
-<button class="button" data-filter=".series">series</button>
-<button class="button" data-filter=".standalone">standalone</button>
-<button class="button" data-filter=".fave">favourites</button>
-<button class="button" data-filter=".tbr">to read</button>
+        
+
+            <div class="button-group js-radio-button-group" data-filter-group="misc">
+            <button class="button is-checked"><u>filter by:</u></button>
+            <button class="button is-checked" data-filter="">everything</button>
+            <button class="button" data-filter=".music">music</button>
+            <button class="button" data-filter=".fest">festivals</button>
+            <button class="button" data-filter=".theatre">theatre</button>
+            <button class="button" data-filter=".comedy">comedy</button>
+            <button class="button" data-filter=".fav">favorites</button>
+            <button class="button" data-filter=".vid">videos</button>
+            <button class="button" data-filter=".repeat">repeats</button>
+            <button class="button" data-filter=".ind">india</button>
+            <button class="button" data-filter=".dc">dc</button>
+            <button class="button" data-filter=".chi">chicago</button>
+            <button class="button" data-filter=".nyc">nyc</button>
+            <button class="button" data-filter=".fl">florida</button>
+            <button class="button" data-filter=".ind">india</button>
 
 </div>
 </div>
@@ -158,14 +180,16 @@ article span:last-of-type { margin-bottom:5px; }
         
 <section>
 
-<!--example book-->
-<article class="fave">
-<h1>book title</h1> :: <b>author</b>
+<!-- saving example post
+
+start
+<article class="fav">
+<h1>Diplo</h1> :: <b>festival name</b>
                 
 <div class="d">
 
-<span><a href="link url">goodreads</a></span> <!--goodreads link-->
-<span>★★★★★</span> <!--star rating-->
+<span><a href="link url">goodreads</a></span> 
+<span>★★★★★</span>
 
 <img src="image url"/>
 
@@ -174,25 +198,158 @@ book description goes here.
 
 </div>
 </article>
-<!--end example book-->
+end
 
-<!--example book 2-->
-<article class="classic">
-<h1>book title</h1> :: <b>author</b>
+PARAMETERS: artist, venue/festival and location, date, lil journal entry, image
+
+-->
+
+
+<!--start-->
+<article class="fl" class="music" class="fest">
+<h1>Diplo</h1>
                 
 <div class="d">
 
-<span><a href="link url">goodreads</a></span> <!--goodreads link-->
-<span>★★★★★</span> <!--star rating-->
+<span>Sunfest (West Palm Beach, FL)</span> 
 
 <img src="image url"/>
 
-book description goes here.
-
+date
 
 </div>
 </article>
-<!--end example book 2-->
+<!--end-->
+
+<!--start-->
+<article class="music" class="fl" class="repeat" class="fest">
+<h1>MAX</h1>
+                
+<div class="d">
+
+<span>Sunfest (West Palm Beach, FL)</span> 
+
+<img src="image url"/>
+
+date
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="dc">
+<h1>Maren Morris</h1>
+                
+<div class="d">
+
+<span>The Anthem, DC</span> 
+
+<img src="./assets/marenmorris.jpg"/>
+
+date
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="opener" class="dc">
+<h1>RaeLynn</h1>
+                
+<div class="d">
+
+<span>The Anthem, DC</span> 
+
+<img src="image url"/>
+
+date
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="fav" class="dc" class="vid"> 
+<h1>Ariana Grande</h1> :: <a href="https://www.youtube.com/watch?v=zCnZl5Du_zg">video</a>
+                
+<div class="d">
+
+<span>Capital One Arena, DC</span> 
+
+
+<img src="image url"/>
+
+March 21, 2019
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="opener" class="dc">
+<h1>Normani</h1>
+                
+<div class="d">
+
+<span>Capital One Arena, DC</span> 
+
+
+<img src="image url"/>
+
+March 21, 2019
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="theatre" class="fl">
+<h1>Dear Evan Hansen</h1>
+                
+<div class="d">
+
+<span>Broward Center for the Performing Arts</span> 
+
+<img src="image url"/>
+
+March 31, 2019
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="ind">
+<h1>Enrique Iglesias</h1>
+                
+<div class="d">
+
+<span>somewhere in mumbai</span> 
+
+<img src="image url"/>
+
+so long ago
+
+</div>
+</article>
+<!--end-->
+
+<!--start-->
+<article class="music" class="ind">
+<h1>Beyonce</h1>
+                
+<div class="d">
+
+<span>somewhere in mumbai</span> 
+
+<img src="image url"/>
+
+so, so long ago
+
+</div>
+</article>
+<!--end-->
 
 
 
@@ -201,6 +358,5 @@ book description goes here.
 </section>
 </div>
  
-<div class="c"><a href="http://odeysseus.tumblr.com">O</a></div>
 </body>
 </html>
